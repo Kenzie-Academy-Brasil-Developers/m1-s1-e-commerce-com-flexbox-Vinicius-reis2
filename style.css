@@ -1,6 +1,11 @@
+*{
+  font-family: 'Inter', sans-serif;
+  
+}
 .container{
   max-width: 1200px;
   margin: 0 auto; /* Centralizando o conteúdo*/
+  gap: 
 }
 .menu {
   width: 100%;
@@ -48,4 +53,20 @@
 
 li{
   list-style: none;
+  display: inline-block;
+}
+
+p{
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.card{
+  width: 24%;
+  height: 500px;
+  background-color: white;
+}
+
+body{
+  background: #F5F5F5;
 }
