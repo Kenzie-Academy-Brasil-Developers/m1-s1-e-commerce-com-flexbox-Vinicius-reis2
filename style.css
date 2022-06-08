@@ -1,10 +1,10 @@
 *{
   font-family: 'Inter', sans-serif;
-  
 }
 .container{
   max-width: 1200px;
   margin: 0 auto; /* Centralizando o conteúdo*/
+  
   
 }
 
@@ -12,6 +12,7 @@
   width: 100%;
   background: #ffffff;
   box-shadow: 0px 4px 30px -10px rgba(0, 0, 0, 0.1);
+  margin-top: -10px;
 }
 
 .menu-flex {
@@ -64,17 +65,41 @@ p{
 
 .card{
   width: 24%;
-  height: 500px;
+  height: 450px;
   background-color: white;
   left: 139px;
   top: 114px;
+  margin-bottom: 34px;
+  border-radius: 20px;
 }
 
 body{
-  background: #F5F5F5;
+  background: #F5F5F5
+  margin: 0;
 }
 
-.container img{
-  width: 282px;
-  height: 207px;
+.card__img{
+  height: 250px;
+  width: 250px;
+  
+  object-fit: scale-down;
+}
+
+.card p{
+  margin-left: 21px;
+  margin-right: 18px;
+}
+
+.card button{
+  background-color: #4C6EF5;
+  color: white;
+  border: 1.5px solid #4C6EF5;
+  border-radius: 8px;
+  padding: 12px;
+  width: 85%;
+  margin-left: 22px;
+}
+
+button:hover{
+  cursor: pointer;
 }
